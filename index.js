@@ -30,7 +30,8 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin:
+      "https://realtime-chat-frontend-jxddji28i-jonathanmruiz.vercel.app/",
     credentials: true,
   },
 });
